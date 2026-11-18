@@ -1,0 +1,67 @@
+dit | pred=x loss=v | 7.37M params | device=cuda
+step    100 | loss 1.2192 | 3s
+step    200 | loss 0.4305 | 5s
+step    300 | loss 0.2159 | 8s
+step    400 | loss 0.5809 | 10s
+step    500 | loss 0.1958 | 13s
+  [eval @ 500] paired MSE 0.1976 | nearest MSE 0.1970
+step    600 | loss 0.3309 | 16s
+step    700 | loss 0.4256 | 19s
+step    800 | loss 0.3079 | 21s
+step    900 | loss 0.1122 | 24s
+step   1000 | loss 0.1750 | 26s
+  [eval @ 1000] paired MSE 0.0437 | nearest MSE 0.0437
+step   1100 | loss 0.0334 | 30s
+step   1200 | loss 0.0682 | 32s
+step   1300 | loss 0.3373 | 35s
+step   1400 | loss 0.0773 | 37s
+step   1500 | loss 0.0581 | 40s
+  [eval @ 1500] paired MSE 0.0099 | nearest MSE 0.0099
+step   1600 | loss 0.4606 | 43s
+step   1700 | loss 0.1499 | 46s
+step   1800 | loss 0.0514 | 49s
+step   1900 | loss 0.0233 | 51s
+step   2000 | loss 0.0223 | 54s
+  [eval @ 2000] paired MSE 0.0033 | nearest MSE 0.0033
+step   2100 | loss 0.1314 | 57s
+step   2200 | loss 0.0118 | 60s
+step   2300 | loss 0.0369 | 62s
+step   2400 | loss 0.0934 | 64s
+step   2500 | loss 0.0109 | 66s
+  [eval @ 2500] paired MSE 0.0013 | nearest MSE 0.0013
+step   2600 | loss 0.2426 | 68s
+step   2700 | loss 0.1092 | 71s
+step   2800 | loss 0.0039 | 73s
+step   2900 | loss 0.0078 | 76s
+step   3000 | loss 0.0688 | 78s
+  [eval @ 3000] paired MSE 0.0007 | nearest MSE 0.0007
+step   3100 | loss 0.0170 | 82s
+step   3200 | loss 0.0498 | 84s
+step   3300 | loss 0.0676 | 87s
+step   3400 | loss 0.0273 | 89s
+step   3500 | loss 0.0072 | 92s
+  [eval @ 3500] paired MSE 0.0007 | nearest MSE 0.0007
+step   3600 | loss 0.0057 | 95s
+step   3700 | loss 0.0166 | 97s
+step   3800 | loss 0.0114 | 100s
+step   3900 | loss 0.0242 | 103s
+step   4000 | loss 0.0222 | 105s
+  [eval @ 4000] paired MSE 0.0005 | nearest MSE 0.0005
+step   4100 | loss 0.0772 | 108s
+step   4200 | loss 0.0093 | 111s
+step   4300 | loss 0.0325 | 113s
+step   4400 | loss 0.0053 | 116s
+step   4500 | loss 0.0229 | 119s
+  [eval @ 4500] paired MSE 0.0005 | nearest MSE 0.0005
+step   4600 | loss 0.0068 | 122s
+step   4700 | loss 0.0239 | 124s
+step   4800 | loss 0.0074 | 127s
+step   4900 | loss 0.0027 | 129s
+step   5000 | loss 0.1150 | 132s
+  [eval @ 5000] paired MSE 0.0004 | nearest MSE 0.0004
+    solver    paired  worst img   nearest
+   heun/50    0.0004     0.0005    0.0004
+  heun/200    0.0005     0.0005    0.0005
+  euler/50    0.0003     0.0004    0.0003
+ euler/200    0.0004     0.0005    0.0004
+done -> runs/images/dit_x-pred_v-loss

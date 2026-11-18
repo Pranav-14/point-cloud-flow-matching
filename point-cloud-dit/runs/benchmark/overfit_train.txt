@@ -1,0 +1,282 @@
+[overfit] 8 clean clouds | Chamfer floor 0.00050
+dit | pred=x loss=v | 9.74M params | lr=0.0003 ema=0.99 | device=cuda
+step    100 | loss 1.1762 | 5s
+step    200 | loss 1.0020 | 8s
+step    300 | loss 0.7672 | 11s
+step    400 | loss 0.9185 | 14s
+step    500 | loss 0.8345 | 17s
+step    600 | loss 0.9565 | 20s
+step    700 | loss 1.0923 | 23s
+step    800 | loss 0.9170 | 26s
+step    900 | loss 0.6195 | 29s
+step   1000 | loss 1.0658 | 32s
+  [sample @ 1000] Chamfer to own cloud: mean 0.00373 worst 0.00800 (floor 0.00050)
+step   1100 | loss 0.6928 | 36s
+step   1200 | loss 0.6927 | 39s
+step   1300 | loss 0.7823 | 42s
+step   1400 | loss 0.7419 | 46s
+step   1500 | loss 0.8049 | 49s
+step   1600 | loss 0.7823 | 52s
+step   1700 | loss 0.5813 | 55s
+step   1800 | loss 0.6972 | 58s
+step   1900 | loss 0.7250 | 61s
+step   2000 | loss 0.7324 | 64s
+  [sample @ 2000] Chamfer to own cloud: mean 0.00188 worst 0.00364 (floor 0.00050)
+step   2100 | loss 0.8272 | 68s
+step   2200 | loss 0.8012 | 71s
+step   2300 | loss 0.8871 | 74s
+step   2400 | loss 0.8836 | 77s
+step   2500 | loss 0.8526 | 80s
+step   2600 | loss 0.7596 | 83s
+step   2700 | loss 0.6856 | 86s
+step   2800 | loss 0.6217 | 89s
+step   2900 | loss 0.7272 | 92s
+step   3000 | loss 0.8106 | 95s
+  [sample @ 3000] Chamfer to own cloud: mean 0.00146 worst 0.00265 (floor 0.00050)
+done -> runs/benchmark/overfit/dit_x-pred_v-loss_seed0
+[overfit] 8 clean clouds | Chamfer floor 0.00050
+dit | pred=v loss=v | 9.74M params | lr=0.0003 ema=0.99 | device=cuda
+step    100 | loss 0.9622 | 3s
+step    200 | loss 0.9771 | 6s
+step    300 | loss 0.7686 | 9s
+step    400 | loss 0.8021 | 12s
+step    500 | loss 0.8296 | 15s
+step    600 | loss 0.8087 | 18s
+step    700 | loss 0.8810 | 21s
+step    800 | loss 0.8129 | 24s
+step    900 | loss 0.5964 | 28s
+step   1000 | loss 0.9733 | 31s
+  [sample @ 1000] Chamfer to own cloud: mean 0.00273 worst 0.00457 (floor 0.00050)
+step   1100 | loss 0.6937 | 35s
+step   1200 | loss 0.6835 | 38s
+step   1300 | loss 0.6998 | 41s
+step   1400 | loss 0.7371 | 44s
+step   1500 | loss 0.7998 | 47s
+step   1600 | loss 0.6197 | 50s
+step   1700 | loss 0.5393 | 53s
+step   1800 | loss 0.6756 | 56s
+step   1900 | loss 0.7184 | 59s
+step   2000 | loss 0.7287 | 62s
+  [sample @ 2000] Chamfer to own cloud: mean 0.00105 worst 0.00182 (floor 0.00050)
+step   2100 | loss 0.7613 | 66s
+step   2200 | loss 0.7986 | 69s
+step   2300 | loss 0.8746 | 72s
+step   2400 | loss 0.8183 | 75s
+step   2500 | loss 0.8571 | 78s
+step   2600 | loss 0.6233 | 81s
+step   2700 | loss 0.6392 | 84s
+step   2800 | loss 0.6238 | 87s
+step   2900 | loss 0.7192 | 91s
+step   3000 | loss 0.7652 | 94s
+  [sample @ 3000] Chamfer to own cloud: mean 0.00085 worst 0.00162 (floor 0.00050)
+done -> runs/benchmark/overfit/dit_v-pred_v-loss_seed0
+[overfit] 8 clean clouds | Chamfer floor 0.00050
+dit | pred=eps loss=v | 9.74M params | lr=0.0003 ema=0.99 | device=cuda
+step    100 | loss 1.0766 | 3s
+step    200 | loss 1.3796 | 6s
+step    300 | loss 0.8899 | 9s
+step    400 | loss 0.9976 | 12s
+step    500 | loss 0.9448 | 15s
+step    600 | loss 0.8381 | 18s
+step    700 | loss 0.9200 | 21s
+step    800 | loss 0.8963 | 24s
+step    900 | loss 0.7946 | 27s
+step   1000 | loss 1.0074 | 30s
+  [sample @ 1000] Chamfer to own cloud: mean 0.01973 worst 0.03443 (floor 0.00050)
+step   1100 | loss 0.7374 | 34s
+step   1200 | loss 0.7444 | 37s
+step   1300 | loss 0.7380 | 41s
+step   1400 | loss 0.8327 | 44s
+step   1500 | loss 0.8576 | 47s
+step   1600 | loss 0.6650 | 50s
+step   1700 | loss 0.5839 | 53s
+step   1800 | loss 0.7753 | 56s
+step   1900 | loss 0.7357 | 59s
+step   2000 | loss 0.8884 | 62s
+  [sample @ 2000] Chamfer to own cloud: mean 0.00792 worst 0.01437 (floor 0.00050)
+step   2100 | loss 0.8372 | 66s
+step   2200 | loss 0.8620 | 69s
+step   2300 | loss 0.8821 | 72s
+step   2400 | loss 0.8739 | 75s
+step   2500 | loss 0.8726 | 78s
+step   2600 | loss 0.7116 | 81s
+step   2700 | loss 0.6940 | 84s
+step   2800 | loss 0.6791 | 87s
+step   2900 | loss 0.7512 | 90s
+step   3000 | loss 0.7957 | 93s
+  [sample @ 3000] Chamfer to own cloud: mean 0.00313 worst 0.00538 (floor 0.00050)
+step   3100 | loss 0.8301 | 97s
+step   3200 | loss 0.7930 | 100s
+step   3300 | loss 0.8336 | 103s
+step   3400 | loss 0.8261 | 106s
+step   3500 | loss 0.8313 | 109s
+step   3600 | loss 0.7824 | 112s
+step   3700 | loss 0.8933 | 115s
+step   3800 | loss 1.0036 | 118s
+step   3900 | loss 0.7460 | 121s
+step   4000 | loss 0.7364 | 125s
+  [sample @ 4000] Chamfer to own cloud: mean 0.00184 worst 0.00298 (floor 0.00050)
+step   4100 | loss 0.6333 | 129s
+step   4200 | loss 0.7897 | 132s
+step   4300 | loss 0.6321 | 135s
+step   4400 | loss 0.6735 | 138s
+step   4500 | loss 0.7844 | 141s
+step   4600 | loss 0.8195 | 144s
+step   4700 | loss 0.8149 | 147s
+step   4800 | loss 0.8466 | 150s
+step   4900 | loss 0.6714 | 153s
+step   5000 | loss 0.8766 | 156s
+  [sample @ 5000] Chamfer to own cloud: mean 0.00163 worst 0.00294 (floor 0.00050)
+step   5100 | loss 0.8394 | 160s
+step   5200 | loss 0.7723 | 163s
+step   5300 | loss 0.9142 | 166s
+step   5400 | loss 0.8643 | 169s
+step   5500 | loss 0.7030 | 172s
+step   5600 | loss 0.8143 | 175s
+step   5700 | loss 0.7498 | 178s
+step   5800 | loss 0.8104 | 181s
+step   5900 | loss 0.9641 | 184s
+step   6000 | loss 0.6886 | 187s
+  [sample @ 6000] Chamfer to own cloud: mean 0.00120 worst 0.00166 (floor 0.00050)
+done -> runs/benchmark/overfit/dit_eps-pred_v-loss_seed0
+[overfit] 8 clean clouds | Chamfer floor 0.00050
+ptv3 | pred=x loss=v | 15.94M params | lr=0.0003 ema=0.99 | device=cuda
+step    100 | loss 2.9007 | 7s
+step    200 | loss 1.0889 | 14s
+step    300 | loss 0.7798 | 20s
+step    400 | loss 0.8975 | 27s
+step    500 | loss 0.8491 | 34s
+step    600 | loss 0.8559 | 41s
+step    700 | loss 0.9800 | 47s
+step    800 | loss 0.8606 | 54s
+step    900 | loss 0.6312 | 61s
+step   1000 | loss 1.0306 | 68s
+  [sample @ 1000] Chamfer to own cloud: mean 0.00921 worst 0.02104 (floor 0.00050)
+step   1100 | loss 0.6937 | 79s
+step   1200 | loss 0.6854 | 86s
+step   1300 | loss 0.7789 | 93s
+step   1400 | loss 0.7483 | 100s
+step   1500 | loss 0.8107 | 107s
+step   1600 | loss 0.7080 | 114s
+step   1700 | loss 0.5732 | 121s
+step   1800 | loss 0.6886 | 128s
+step   1900 | loss 0.7231 | 135s
+step   2000 | loss 0.7316 | 143s
+  [sample @ 2000] Chamfer to own cloud: mean 0.00355 worst 0.00896 (floor 0.00050)
+step   2100 | loss 0.7995 | 154s
+step   2200 | loss 0.8066 | 161s
+step   2300 | loss 0.8816 | 168s
+step   2400 | loss 0.8538 | 175s
+step   2500 | loss 0.8542 | 182s
+step   2600 | loss 0.7147 | 189s
+step   2700 | loss 0.6834 | 196s
+step   2800 | loss 0.6201 | 203s
+step   2900 | loss 0.7266 | 209s
+step   3000 | loss 0.7951 | 216s
+  [sample @ 3000] Chamfer to own cloud: mean 0.00224 worst 0.00534 (floor 0.00050)
+done -> runs/benchmark/overfit/ptv3_x-pred_v-loss_seed0
+[overfit] 8 clean clouds | Chamfer floor 0.00050
+ptv3 | pred=v loss=v | 15.94M params | lr=0.0003 ema=0.99 | device=cuda
+step    100 | loss 0.9452 | 7s
+step    200 | loss 0.9832 | 14s
+step    300 | loss 0.7829 | 21s
+step    400 | loss 0.8024 | 28s
+step    500 | loss 0.8524 | 35s
+step    600 | loss 0.8132 | 42s
+step    700 | loss 0.8851 | 49s
+step    800 | loss 0.8205 | 56s
+step    900 | loss 0.6006 | 62s
+step   1000 | loss 0.9797 | 69s
+  [sample @ 1000] Chamfer to own cloud: mean 0.01695 worst 0.03883 (floor 0.00050)
+step   1100 | loss 0.6930 | 81s
+step   1200 | loss 0.6960 | 88s
+step   1300 | loss 0.7216 | 95s
+step   1400 | loss 0.7460 | 102s
+step   1500 | loss 0.8073 | 109s
+step   1600 | loss 0.6385 | 116s
+step   1700 | loss 0.5556 | 123s
+step   1800 | loss 0.6845 | 131s
+step   1900 | loss 0.7232 | 138s
+step   2000 | loss 0.7292 | 145s
+  [sample @ 2000] Chamfer to own cloud: mean 0.00490 worst 0.00926 (floor 0.00050)
+step   2100 | loss 0.7642 | 156s
+step   2200 | loss 0.8026 | 163s
+step   2300 | loss 0.8755 | 170s
+step   2400 | loss 0.8347 | 177s
+step   2500 | loss 0.8547 | 184s
+step   2600 | loss 0.6263 | 191s
+step   2700 | loss 0.6482 | 198s
+step   2800 | loss 0.6236 | 206s
+step   2900 | loss 0.7219 | 213s
+step   3000 | loss 0.7685 | 220s
+  [sample @ 3000] Chamfer to own cloud: mean 0.00287 worst 0.00525 (floor 0.00050)
+done -> runs/benchmark/overfit/ptv3_v-pred_v-loss_seed0
+[overfit] 8 clean clouds | Chamfer floor 0.00050
+ptv3 | pred=eps loss=v | 15.94M params | lr=0.0003 ema=0.99 | device=cuda
+step    100 | loss 1.2090 | 7s
+step    200 | loss 1.9721 | 14s
+step    300 | loss 1.3053 | 20s
+step    400 | loss 1.2065 | 27s
+step    500 | loss 1.3217 | 34s
+step    600 | loss 0.9354 | 41s
+step    700 | loss 0.9555 | 47s
+step    800 | loss 1.0933 | 54s
+step    900 | loss 0.9981 | 61s
+step   1000 | loss 1.0383 | 68s
+  [sample @ 1000] Chamfer to own cloud: mean 0.05826 worst 0.10086 (floor 0.00050)
+step   1100 | loss 0.8147 | 79s
+step   1200 | loss 0.8219 | 86s
+step   1300 | loss 0.7685 | 93s
+step   1400 | loss 0.9569 | 100s
+step   1500 | loss 0.9829 | 107s
+step   1600 | loss 0.8996 | 114s
+step   1700 | loss 0.7035 | 121s
+step   1800 | loss 0.7956 | 128s
+step   1900 | loss 0.7706 | 135s
+step   2000 | loss 0.8261 | 143s
+  [sample @ 2000] Chamfer to own cloud: mean 0.04525 worst 0.06451 (floor 0.00050)
+step   2100 | loss 1.0593 | 154s
+step   2200 | loss 0.9797 | 161s
+step   2300 | loss 0.9064 | 168s
+step   2400 | loss 0.9240 | 175s
+step   2500 | loss 0.8796 | 182s
+step   2600 | loss 0.7729 | 189s
+step   2700 | loss 0.8637 | 197s
+step   2800 | loss 0.6975 | 204s
+step   2900 | loss 0.7721 | 211s
+step   3000 | loss 0.8198 | 218s
+  [sample @ 3000] Chamfer to own cloud: mean 0.02244 worst 0.04443 (floor 0.00050)
+step   3100 | loss 0.8971 | 229s
+step   3200 | loss 0.8130 | 236s
+step   3300 | loss 0.8514 | 243s
+step   3400 | loss 0.8426 | 250s
+step   3500 | loss 0.8393 | 257s
+step   3600 | loss 0.8427 | 264s
+step   3700 | loss 0.9352 | 272s
+step   3800 | loss 1.0181 | 279s
+step   3900 | loss 0.7617 | 286s
+step   4000 | loss 0.7454 | 293s
+  [sample @ 4000] Chamfer to own cloud: mean 0.01115 worst 0.02264 (floor 0.00050)
+step   4100 | loss 0.6828 | 304s
+step   4200 | loss 0.8036 | 311s
+step   4300 | loss 0.6893 | 318s
+step   4400 | loss 0.6796 | 325s
+step   4500 | loss 0.7919 | 332s
+step   4600 | loss 0.8176 | 339s
+step   4700 | loss 0.8268 | 346s
+step   4800 | loss 0.8528 | 354s
+step   4900 | loss 0.7486 | 361s
+step   5000 | loss 0.8841 | 368s
+  [sample @ 5000] Chamfer to own cloud: mean 0.00721 worst 0.01520 (floor 0.00050)
+step   5100 | loss 0.8553 | 379s
+step   5200 | loss 0.7806 | 386s
+step   5300 | loss 0.9166 | 393s
+step   5400 | loss 0.8943 | 400s
+step   5500 | loss 0.7069 | 407s
+step   5600 | loss 0.8152 | 414s
+step   5700 | loss 0.7695 | 421s
+step   5800 | loss 0.8082 | 428s
+step   5900 | loss 0.9653 | 435s
+step   6000 | loss 0.6884 | 442s
+  [sample @ 6000] Chamfer to own cloud: mean 0.00380 worst 0.00620 (floor 0.00050)
+done -> runs/benchmark/overfit/ptv3_eps-pred_v-loss_seed0

@@ -1,0 +1,24 @@
+{
+  "model": "dit",
+  "pred": "x",
+  "loss_space": "v",
+  "n_images": 10,
+  "image_size": 32,
+  "patch_size": 2,
+  "data_root": "~/fastdata/cifar10",
+  "attn_patch": 64,
+  "knn": 8,
+  "steps": 5000,
+  "lr": 0.0003,
+  "ema": 0.99,
+  "log_every": 100,
+  "eval_every": 500,
+  "final_steps": [
+    50,
+    200
+  ],
+  "final_seeds": 3,
+  "out": "runs/images/dit_x-pred_v-loss",
+  "seed": 0,
+  "device": "cuda"
+}

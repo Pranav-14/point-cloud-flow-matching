@@ -1,0 +1,42 @@
+runs/benchmark/overfit/dit_eps-pred_v-loss_seed0/ckpt.pt: dit, pred=eps, loss=v
+Chamfer floor 0.00050
+    solver    CD mean   CD worst   EMD mean
+   heun/50    0.00142    0.00207    0.07201
+  heun/200    0.00149    0.00217    0.07243
+  euler/50    0.00201    0.00305    0.07528
+ euler/200    0.00157    0.00218    0.07285
+runs/benchmark/overfit/dit_v-pred_v-loss_seed0/ckpt.pt: dit, pred=v, loss=v
+Chamfer floor 0.00050
+    solver    CD mean   CD worst   EMD mean
+   heun/50    0.00092    0.00167    0.06937
+  heun/200    0.00093    0.00154    0.06955
+  euler/50    0.00116    0.00196    0.07066
+ euler/200    0.00096    0.00160    0.06950
+runs/benchmark/overfit/dit_x-pred_v-loss_seed0/ckpt.pt: dit, pred=x, loss=v
+Chamfer floor 0.00050
+    solver    CD mean   CD worst   EMD mean
+   heun/50    0.00153    0.00300    0.07472
+  heun/200    0.00158    0.00303    0.07491
+  euler/50    0.00166    0.00322    0.07487
+ euler/200    0.00159    0.00308    0.07474
+runs/benchmark/overfit/ptv3_eps-pred_v-loss_seed0/ckpt.pt: ptv3, pred=eps, loss=v
+Chamfer floor 0.00050
+    solver    CD mean   CD worst   EMD mean
+   heun/50    0.00370    0.00757    0.08508
+  heun/200    0.00384    0.00785    0.08549
+  euler/50    0.00449    0.00749    0.08734
+ euler/200    0.00393    0.00754    0.08579
+runs/benchmark/overfit/ptv3_v-pred_v-loss_seed0/ckpt.pt: ptv3, pred=v, loss=v
+Chamfer floor 0.00050
+    solver    CD mean   CD worst   EMD mean
+   heun/50    0.00281    0.00505    0.07905
+  heun/200    0.00287    0.00535    0.07898
+  euler/50    0.00326    0.00593    0.08036
+ euler/200    0.00291    0.00526    0.07918
+runs/benchmark/overfit/ptv3_x-pred_v-loss_seed0/ckpt.pt: ptv3, pred=x, loss=v
+Chamfer floor 0.00050
+    solver    CD mean   CD worst   EMD mean
+   heun/50    0.00221    0.00492    0.07742
+  heun/200    0.00223    0.00487    0.07755
+  euler/50    0.00240    0.00568    0.07832
+ euler/200    0.00227    0.00507    0.07765

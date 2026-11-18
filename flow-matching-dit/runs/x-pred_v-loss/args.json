@@ -1,0 +1,22 @@
+{
+  "pred": "x",
+  "loss_space": "v",
+  "t_sampler": "uniform",
+  "n_images": 10,
+  "image_size": 32,
+  "data_root": "~/fastdata/cifar10",
+  "patch_size": 2,
+  "hidden": 256,
+  "depth": 6,
+  "heads": 4,
+  "steps": 5000,
+  "batch_size": 64,
+  "lr": 0.0002,
+  "log_every": 100,
+  "sample_every": 1000,
+  "n_samples": 16,
+  "sample_steps": 50,
+  "out": "runs/x-pred_v-loss",
+  "seed": 0,
+  "device": "cuda"
+}
